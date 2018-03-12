@@ -47,7 +47,7 @@ CEF还提供的如下特性：自定义插件、自定义协议、自定义JavaS
 
 据 **CEF** 官方介绍，以下（如图）桌面应用在使用 `CEF`。
 
-![@who is using CEF | center | 800x0](./desktop application/CEF.png)
+![@who is using CEF | center | 800x0](/desktop application/CEF.png)
 
 国内桌面应用有：[有道云笔记][3] <i style="color:#aaa">（网易）</i>、[钉钉][4]<i style="color:#aaa">（阿里巴巴）</i>、[QQ][5]<i style="color:#aaa">（腾讯）</i> 等，查看安装后目录及文件，可以看出 **有道云笔记**、**钉钉** 是使用的是`CEF`，而 **钉钉** 界面是使用 `AngularJs`，据了解后端应该用了`C++`和`Python`。
 
