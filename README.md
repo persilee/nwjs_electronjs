@@ -47,15 +47,15 @@ CEF还提供的如下特性：自定义插件、自定义协议、自定义JavaS
 
 据 **CEF** 官方介绍，以下（如图）桌面应用在使用 `CEF`。
 
-![@who is using CEF | center | 800x0](/desktop application/CEF.png)
+![@who is using CEF | center | 800x0](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/CEF.png)
 
 国内桌面应用有：[有道云笔记][3] <i style="color:#aaa">（网易）</i>、[钉钉][4]<i style="color:#aaa">（阿里巴巴）</i>、[QQ][5]<i style="color:#aaa">（腾讯）</i> 等，查看安装后目录及文件，可以看出 **有道云笔记**、**钉钉** 是使用的是`CEF`，而 **钉钉** 界面是使用 `AngularJs`，据了解后端应该用了`C++`和`Python`。
 
 **QQ** 很早之前就通过内嵌 **IE** 来实现一些功能和界面。从2013年开始，**QQ** 引入了 `CEF`，对一些之前用 **IE** 的地方进行了替换。
 
-![@钉钉Mac版目录 | center](./desktop application/1520329975606.png)
+![@钉钉Mac版目录 | center](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520329975606.png)
 
-![@钉钉Mac版应用界面 | center](./desktop application/1520330256871.png)
+![@钉钉Mac版应用界面 | center](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520330256871.png)
 
 #### NW 案例
 
@@ -63,9 +63,9 @@ CEF还提供的如下特性：自定义插件、自定义协议、自定义JavaS
 
 而国内的有，比如微信开发工具等，是基于 `nw.js` 开发的。
 
-![@微信开发工具Mac版目录 | center](./desktop application/1520571438918.png)
+![@微信开发工具Mac版目录 | center](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520571438918.png)
 
-![@微信开发工具Mac版 | center](./desktop application/1520571517344.png)
+![@微信开发工具Mac版 | center](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520571517344.png)
 
 #### Electron 案例
 
@@ -73,11 +73,11 @@ CEF还提供的如下特性：自定义插件、自定义协议、自定义JavaS
 
 如图，**Electron** 已被像 **微软**、 **Facebook**、 **Slack** 和 **Docker** 这样的公司用于创建应用程序。
 
-![#electron 应用 | center | 550x0](./desktop application/1520668439676.png)
+![#electron 应用 | center | 550x0](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520668439676.png)
 
 我所用的编辑器 **Visual Studio Code** 就是基于 `electron` 开发的
 
-![@VS Code Mac版](./desktop application/1520669844227.png)
+![@VS Code Mac版](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520669844227.png)
  
  ----
 
@@ -168,11 +168,11 @@ zip -r app.nw *
 
 然后把`app.nw` 文件放到 `nwjs.app/Contents/Resources/` 目录下即可，效果如图：
 
-![@Mac下运行效果 | center](./desktop application/1520711078780.png)
+![@Mac下运行效果 | center](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520711078780.png)
 
 **Windows打包应用：**  将应用的所有相关文件打成一个名为`package.nw` 的压缩包，将`package.nw` 与**NW**可执行文件放到相同目录即可，效果如图：
 
-![@Windons下运行效果 | center | 880x0 ](./desktop application/1520711343860.png)
+![@Windons下运行效果 | center | 880x0 ](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520711343860.png)
 
 -----
 
@@ -286,12 +286,12 @@ app.on('ready', createWindow)
 
 然后，运行在终端执行命令 `npm run packagerMac` 即可打包`linux`、`Mac`、`windows` 三大平台应用包，效果如图：
 
-![@打包后的应用 | center| 400x0](./desktop application/1520791859473.png)
+![@打包后的应用 | center| 400x0](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520791859473.png)
 
 
-![@Mac下运行效果 | center](./desktop application/1520790145115.png)
+![@Mac下运行效果 | center](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520790145115.png)
 
-![@Windows下运行效果 | center | 880x0](./desktop application/1520792416456.png)
+![@Windows下运行效果 | center | 880x0](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520792416456.png)
 
 ----
 
@@ -299,35 +299,35 @@ app.on('ready', createWindow)
 
 首先我们需要先了解一下 **GitHub** 的以下三个状态的意思，
 
-![Alt text | center | 400x0](./desktop application/1520857435681.png)
+![Alt text | center | 400x0](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520857435681.png)
 
-![Alt text](./desktop application/1520857536175.png) ：表示你以后会关注这个项目的所有动态，这个项目以后只要发生变动，如被别人提交了 `pull request`、被别人发起了`issue` 等等情况，你都会在自己的个人通知中心，收到一条通知消息，如果你设置了个人邮箱，那么你的邮箱也可能收到相应的邮件。
+![Alt text](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520857536175.png) ：表示你以后会关注这个项目的所有动态，这个项目以后只要发生变动，如被别人提交了 `pull request`、被别人发起了`issue` 等等情况，你都会在自己的个人通知中心，收到一条通知消息，如果你设置了个人邮箱，那么你的邮箱也可能收到相应的邮件。
 
-![Alt text](./desktop application/1520857569746.png)：表示你喜欢这个项目或者通俗点，可以把他理解成朋友圈的点赞，表示对这个项目的支持。
+![Alt text](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520857569746.png)：表示你喜欢这个项目或者通俗点，可以把他理解成朋友圈的点赞，表示对这个项目的支持。
 
-![Alt text](./desktop application/1520857709924.png)：当选择 `fork`，相当于你自己有了一份原项目的拷贝，当然这个拷贝只是针对当时的项目文件，如果后续原项目文件发生改变，你必须通过其他的方式去同步。<i style="color:#aaa">（一般用于修改**bug**和优化项目或者在此项目上开发新功能等）</i>
+![Alt text](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520857709924.png)：当选择 `fork`，相当于你自己有了一份原项目的拷贝，当然这个拷贝只是针对当时的项目文件，如果后续原项目文件发生改变，你必须通过其他的方式去同步。<i style="color:#aaa">（一般用于修改**bug**和优化项目或者在此项目上开发新功能等）</i>
 
 #### CEF
 
 **CEF** 在 **GitHub** 找不到项目，这个[官网][8] 提供的数据，如图<i style="color:#aaa">（由于在**GitHub** 没有项目，相关数据无法准确统计）</i>。
 
-![@CEF关注度 | center](./desktop application/1520855809138.png)
+![@CEF关注度 | center](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520855809138.png)
 
 #### NW
 
-**NW关注度：** ![Alt text](./desktop application/1520856387728.png)
+**NW关注度：** ![Alt text](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520856387728.png)
 
 **NW活跃度：**如图
 
-![@2011年~2018年提交量 | center](./desktop application/1520858064076.png)
+![@2011年~2018年提交量 | center](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520858064076.png)
 
 #### Electron
 
-**Electron关注度：** ![Alt text](./desktop application/1520858325207.png)
+**Electron关注度：** ![Alt text](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/1520858325207.png)
 
 **活跃度：** 如图
 
-![@electron2013年~2018年提交量 | center](./desktop application/1520858451333.png)
+![@electron2013年~2018年提交量 | center](https://github.com/persilee/nwjs_electronjs/tree/master/desktop_application/520858451333.png)
 
 ----
 
