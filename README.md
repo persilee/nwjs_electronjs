@@ -327,7 +327,7 @@ app.on('ready', createWindow)
 
 **活跃度：** 如图
 
-![@electron2013年~2018年提交量 | center](https://github.com/persilee/nwjs_electronjs/blob/master/desktop_application/520858451333.png)
+![@electron2013年~2018年提交量 | center](https://github.com/persilee/nwjs_electronjs/blob/master/desktop_application/1520858451333.png?raw=true)
 
 ----
 
