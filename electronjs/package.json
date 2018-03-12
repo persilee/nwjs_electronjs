@@ -1,0 +1,31 @@
+{
+  "name": "electronjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./ HelloElectron --all --out ./OutApp --version 0.0.1 --overwrite --ignore=node_modules --icon=./app/img/app.ico",
+    "packagerWin": "electron-packager ./ HelloElectron --win32 --arch=x64 --out ./OutApp --arch=x64 --version 0.0.1 --overwrite --ignore=node_modules --icon=./app/img/app.ico",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    "win": {
+      "iconUrl": "(windows-only) https link to icon"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron-packager": "^11.1.0"
+  },
+  "devDependencies": {
+    "electron": "^1.8.3",
+    "electron-builder": "^20.4.1"
+  }
+}
