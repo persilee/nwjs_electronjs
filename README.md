@@ -6,7 +6,7 @@
 
 ----
 
-最近研究了一下基于 `Chromium` 定制浏览器的方案，查阅了大量资料，具体方案也有了大概的蓝图。
+最近研究了一下基于 `Chromium` 定制浏览器的方案，查阅了大量资料，具体方案也有了大概的蓝图。 [https://persilee.github.io/nwjs_electronjs/](https://persilee.github.io/nwjs_electronjs/)
 
 在阐述方案之前，先要了解几个名词：
 
